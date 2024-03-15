@@ -1,0 +1,8 @@
+prefix=/home/agx/RM_Auto_JYZ_ws/install
+
+Name: rm2023_jyz_auto
+Description: Description of rm2023_jyz_auto
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

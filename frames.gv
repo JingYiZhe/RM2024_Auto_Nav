@@ -1,0 +1,9 @@
+digraph G {
+"base_link" -> "laser"[label=" Broadcaster: /slamware_ros_sdk_server_node\nAverage rate: 20.269\nBuffer length: 4.934\nMost recent transform: 1708606174.212\nOldest transform: 1708606169.278\n"];
+"odom" -> "base_link"[label=" Broadcaster: /slamware_ros_sdk_server_node\nAverage rate: 20.19\nBuffer length: 4.953\nMost recent transform: 1708606174.164\nOldest transform: 1708606169.211\n"];
+"map" -> "odom"[label=" Broadcaster: /robot_localization_ekf_node_map\nAverage rate: 20.19\nBuffer length: 4.953\nMost recent transform: 1708606174.164\nOldest transform: 1708606169.211\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1708606174.2065096"[ shape=plaintext ] ;
+}->"map";
+}

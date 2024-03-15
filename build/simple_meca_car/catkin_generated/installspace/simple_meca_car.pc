@@ -1,0 +1,8 @@
+prefix=/home/agx/RM_Auto_JYZ_ws/install
+
+Name: simple_meca_car
+Description: Description of simple_meca_car
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

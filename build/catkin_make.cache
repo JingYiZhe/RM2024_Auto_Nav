@@ -1,0 +1,2 @@
+auto_nav:fdilink_ahrs:rm2023_jyz_auto:roborts_msgs:scan_to_map:slamware_ros_sdk:slamware_sdk
+-DCATKIN_DEVEL_PREFIX=/home/agx/RM_Auto_JYZ_ws/devel -DCMAKE_INSTALL_PREFIX=/home/agx/RM_Auto_JYZ_ws/install -G Unix Makefiles

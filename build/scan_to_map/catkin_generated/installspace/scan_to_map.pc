@@ -1,0 +1,8 @@
+prefix=/home/agx/RM_Auto_JYZ_ws/install
+
+Name: scan_to_map
+Description: Description of scan_to_map
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

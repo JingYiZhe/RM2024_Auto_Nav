@@ -1,0 +1,19 @@
+source devel/setup.bash
+
+sudo chmod 777 /dev/ttyUSB0
+
+roslaunch fdilink_ahrs ahrs_data.launch
+
+roslaunch slamware_ros_sdk slamware_ros_sdk_intergated_with_teb.launch ip_address:=192.168.11.1
+
+roslaunch slamware_ros_sdk save_node.launch
+
+roslaunch slamware_ros_sdk save.launch
+
+ rosrun rm2023_jyz_auto send_data 
+
+rosrun rqt_tf_tree rqt_tf_tree
+
+rosrun rqt_graph rqt_graph
+
+

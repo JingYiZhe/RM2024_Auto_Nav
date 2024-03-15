@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="map_server" type="map_saver" name="map_saver1" args="-f $(find slamware_ros_sdk)/map/mymap" output="screen">
+		<remap from="map" to="/slamware_ros_sdk_server_node/map" /> 		
+	</node>
+</launch>
+
